@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    max-width: 550px;
+    font-family: 'Poppins';
+    margin: 0 auto;
+}
+
+
+.navbar {
+    height: 70px;
+    background-color: #ffffff;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    padding: 10px;
+}
+
+
+.airbnb-logo {
+    width: 82px;
+    margin: 22px 30px;
+}
+
+.hero-component {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.photo-grid {
+    max-width: 400px;
+    padding-top: 26px;
+    margin-bottom: 0;
+    margin: 0 auto;
+}
+
+.body-title {
+    padding-top: 20px;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.body-paragraph {
+    padding-right: 185px;
+    padding-top: 16px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 17.6px;
+    letter-spacing: 1px;
+}
+
+.card {
+    max-width: 196px;
+    padding: 20px 10px 0px 10px;
+}
+
+.card-picture {
+   border-radius: 9px;
+   width: 100%;
+}
+.star {
+    height: 14px;
+}
+
+.card-details {
+    font-size: 12px;
+
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.gray {
+    color: #918E9B;
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow-x: auto;
+}
+
+.card {
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
+    position: relative;
+}
+
+.card--image {
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+
+/* ADD */
+.card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+}
+
+.card--star {
+    height: 14px;
+}
+
+/* ADD */
+.card--price {
+    margin-top: auto;
+}
+
+.card--badge {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: white;
+    padding: 5px 5px;
+    border-radius: 2px;
+    font-weight: bold;
+    margin: 20px 15px;
+}
+
