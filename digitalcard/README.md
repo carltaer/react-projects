@@ -1,3 +1,10 @@
+# Basic reactjs app
+  Live link: https://ctaer-digitalcard.netlify.app
+  
+  Digital Card is a basic react app featuring the custom component of reactjs and styling with CSS.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
